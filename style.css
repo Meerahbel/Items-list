@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #111827;
+  width: 100%;
+  color: white;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin: 5px 20px;
+}
+
+#main-title {
+  width: 60%;
+}
+
+.search {
+  width: 40%;
+}
+
+.form-control {
+  padding: 10px;
+}
+
+#filter {
+  width: 70%;
+}
+
+.sub-div {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #111827;
+}
+
+.new-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-btn {
+  margin-left: 5px;
+  padding: 10px;
+  background-color: #111827;
+  color: white;
+}
+
+ul {
+  background-color: #f3f4f6;
+  padding: 20px;
+  border: 1px solid #111827;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border: 1px solid #d1d5db;
+  padding: 10px;
+}
+
+.btn {
+  margin-left: 5px;
+  padding: 10px;
+  background-color: #111827;
+  color: white;
+}
+
+/* For Mobile phone */
+@media (max-width: 600px) {
+  #main-title {
+    width: 50%;
+  }
+
+  .search {
+    width: 50%;
+  }
+
+  .sub-div {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .new-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3px;
+  }
+
+  .add-new {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .add-btn {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .main-div {
+    margin: 0;
+  }
+}

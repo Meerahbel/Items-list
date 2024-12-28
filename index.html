@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Item Lister</title>
+  </head>
+  <body>
+    <header id="main">
+      <div class="main-div">
+        <h1 id="main-title">K&M</h1>
+        <div class="search">
+          <input
+            type="text"
+            id="filter"
+            class="form-control"
+            placeholder="Search Items..."
+          />
+        </div>
+      </div>
+    </header>
+
+    <!--For the sub header form & list-->
+    <div class="sub-div">
+      <!--For the sub header form-->
+      <div class="new-div">
+        <h1 id="sub-title">K&M's List</h1>
+        <form class="add-new">
+          <input type="text" class="form-control" id="add-input" />
+          <input type="submit" class="add-btn" value="Add New" />
+        </form>
+      </div>
+
+      <!--For the list-->
+      <ul id="items" class="list-group">
+        <li class="list-group-item">
+          K 1
+          <button class="btn">Remove</button>
+        </li>
+
+        <li class="list-group-item">
+          K 2
+          <button class="btn">Remove</button>
+        </li>
+
+        <li class="list-group-item">
+          M 1
+          <button class="btn">Remove</button>
+        </li>
+
+        <li class="list-group-item">
+          M 2
+          <button class="btn">Remove</button>
+        </li>
+      </ul>
+    </div>
+
+    <script src="dom.js"></script>
+  </body>
+</html>
